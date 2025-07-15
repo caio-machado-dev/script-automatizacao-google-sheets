@@ -227,7 +227,7 @@ pip list
 
 ## 📄 Licença
 
-Este projeto é proprietário da Agência Bázico.
+Este projeto é proprietário de Caio Machado
 
 ## 📞 Suporte
 
@@ -239,4 +239,4 @@ Para dúvidas ou problemas:
 
 ---
 
-**Desenvolvido com ❤️ para Agência Bázico**
+**Desenvolvido por Caio Machado**
