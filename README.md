@@ -14,8 +14,8 @@ Sistema automatizado para análise de performance de parceiros da Bázico, integ
 
 Um parceiro recebe status ✅ se:
 
-- **Menções**: Mais de 4 menções no mês
-- **Indicações**: Mais de 1 indicação no mês
+- **Menções**: Mais ou igual a 4 menções no mês
+- **Indicações**: Mais ou igual a 1 indicação no mês
 
 Caso contrário, recebe status ❌
 

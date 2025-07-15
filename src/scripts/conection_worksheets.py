@@ -91,7 +91,7 @@ df_resultado = df_resultado.sort_values(
 
 # --- Definir Status dos Clientes ---
 df_resultado['Status dos Clientes'] = df_resultado.apply(
-    lambda row: '✅' if row['Qtd. de Menções'] > 4 and row['Qtd. de Indicações'] > 1 else '❌',
+    lambda row: '✅' if row['Qtd. de Menções'] >= 4 and row['Qtd. de Indicações'] >= 1 else '❌',
     axis=1
 )
 
