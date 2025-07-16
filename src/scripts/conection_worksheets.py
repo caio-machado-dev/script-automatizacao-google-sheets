@@ -4,6 +4,7 @@ from google_sheets_utils import get_worksheet
 from gspread_dataframe import set_with_dataframe
 from gspread_formatting import set_data_validation_for_cell_range, DataValidationRule, BooleanCondition
 from config import WORKSHEET1, WORKSHEET2, WORKSHEET3, DEFAULT_MONTH, DEFAULT_YEAR
+from googleapiclient.discovery import build
 
 
 def filtrar_por_mes(df, coluna_data, mes, ano):
